@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import BusinessList from './components/BusinessList';
-import SearchBar from './components/SearchBar';
+import BusinessList from './components/BusinessList/BusinessList.js';
+import SearchBar from './components/SearchBar/SearchBar.js';
 
 class App extends React.Component {
   render() {
@@ -16,6 +16,4 @@ class App extends React.Component {
   }
 }
 
-export default class App extends React.Component {
-
-}
+export default App;
